@@ -12,3 +12,13 @@ students_name={"Humayun", "Monir", "Bishal", "Kabir", "Aminur","Azay", "Avinash"
 students_grade=(3.50,3.90,3.74,3.75,3.00,2.92,3.88)
 for i1, i2,i3 in zip(students_id,students_name,students_grade):
     print(i1, i2,i3)
+
+# Enumerate exercise:
+names = ["Rachael Green", "Goodfellow Ian", "Tedd Crock", "Mina Joseph"]
+salaries = [10260, 41571, 71211, 52141, 35781]
+people_salaries = []
+
+for i, j in enumerate(names):
+    x = j + " $" + str(salaries[i])
+    people_salaries.append(x)
+print(people_salaries)

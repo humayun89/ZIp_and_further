@@ -30,4 +30,5 @@ people_salaries = []
 for i, j in enumerate(names):
     x=j+ "§" + str(salaries[i])
     people_salaries.append(x)
-print(people_salaries)
+print(people_salaries)\
+# List comprehension >

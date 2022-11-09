@@ -18,7 +18,9 @@ names = ["Rachael Green", "Goodfellow Ian", "Tedd Crock", "Mina Joseph"]
 salaries = [10260, 41571, 71211, 52141, 35781]
 people_salaries = []
 
-for i, j in enumerate(names): ***** Here  j in enumerate(names) implies the j variable is related to names****
+# ***** Here  j in enumerate(names) implies the j variable is related to names.****
+
+for i, j in enumerate(names):
     x = j + " $" + str(salaries[i])
     people_salaries.append(x)
 print(people_salaries)
@@ -30,5 +32,12 @@ people_salaries = []
 for i, j in enumerate(names):
     x=j+ " § " + str(salaries[i])
     people_salaries.append(x)
-print(people_salaries)\
+print(people_salaries)
 # List comprehension :
+my_list_normal= []
+for current_element in range(10):
+    my_list_normal.append(current_element)
+print(my_list_normal)
+# Comprehensive list  in one line:
+my_list_comp=[current_element for current_element in range(10)]
+print(my_list_comp)

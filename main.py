@@ -49,3 +49,12 @@ print(expenses)
 # now:
 expenses=[i for i in range(1550,2000,200)]
 print(expenses)
+
+# Again:
+list_comp =  [ (index , value ) for index ,value in enumerate( range( 5, 10 ) ) ]
+
+print(list_comp)
+# My practise:
+Students_cgpa=(3.50,3.70,3.94,3.77)
+cgpa=[(student_rank, result) for student_rank, result in enumerate(Students_cgpa,1)]
+print(cgpa)

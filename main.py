@@ -41,3 +41,11 @@ print(my_list_normal)
 # Comprehensive list  in one line:
 my_list_comp=[current_element for current_element in range(10)]
 print(my_list_comp)
+# Same as the letter one:
+expenses=[]
+for i in range(1550,2000,200):
+    expenses.append(i)
+print(expenses)
+# now:
+expenses=[i for i in range(1550,2000,200)]
+print(expenses)

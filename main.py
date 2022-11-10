@@ -74,12 +74,12 @@ passed_students_names = [name.split()[0] for name, x in students_dict.items() if
 print(students_dict)
 # Own made problem using split() : find those expenses less than 200.
 monthly_expenses = {
-                    "house_rent": 5000,
-                    "electricity": 200,
-                    "fuel_costs": 650,
-                    "meal_expenses": 300,
-                    "cigarette": 100,
-                    "coffee": 50
+                    "house_rent" : 5000,
+                    "electricity" : 200,
+                    "fuel_costs" : 650,
+                    "meal_expenses" : 300,
+                    "cigarette" : 100,
+                    "coffee" : 50,
                    }
 except_smaller_expenses = [expenses.split()[0] for expenses, i in monthly_expenses.items() if i > 200]
 print(except_smaller_expenses)

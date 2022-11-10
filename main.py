@@ -81,5 +81,5 @@ monthly_expenses = {
                     "cigarette": 100,
                     "coffee": 50
                    }
-except_smaller_expenses = [expenses.split()[0] for expenses, i in monthly_expenses.items() if x < 200]
+except_smaller_expenses = [expenses.split()[0] for expenses, i in monthly_expenses.items() if i > 200]
 print(except_smaller_expenses)

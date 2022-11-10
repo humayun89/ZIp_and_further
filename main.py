@@ -25,7 +25,7 @@ for i, j in enumerate(names):
     people_salaries.append(x)
 print(people_salaries)
 
-# upgration of last one:
+# upgrade from last one:
 names = ["Rachael Green", "Goodfellow Ian", "Tedd Crock", "Mina Joseph"]
 salaries = [10260, 41571, 71211, 52141, 35781]
 people_salaries = []

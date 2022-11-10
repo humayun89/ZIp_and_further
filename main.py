@@ -52,9 +52,34 @@ print(expenses)
 
 # Again:
 list_comp =  [ (index , value ) for index ,value in enumerate( range( 5, 10 ) ) ]
-
 print(list_comp)
 # My practise:
 Students_cgpa=(3.50,3.70,3.94,3.77)
 cgpa=[(student_rank, result) for student_rank, result in enumerate(Students_cgpa,1)]
 print(cgpa)
+# more
+Dictionary1 = { 'A': 'Geeks', 'B': 4, 'C': 'Geeks' }
+items= Dictionary1.items()
+del[Dictionary1['C']]
+print(items)
+# quiz from Udemy:
+students_dict = {
+                    "Joel Corry" : 70,
+                    "James Bond" : 90,
+                    "Fatma Ahmed": 20,
+                    "Lily Saqr"  : 94,
+                    "Ahmed Yan"  : 40,
+                }
+passed_students_names = [name.split()[0] for name, x in students_dict.items() if x > 50]
+print(students_dict)
+# Own made problem using split() : find those expenses less than 200.
+monthly_expenses = {
+                    "house_rent": 5000,
+                    "electricity": 200,
+                    "fuel_costs": 650,
+                    "meal_expenses": 300,
+                    "cigarette": 100,
+                    "coffee": 50
+                   }
+except_smaller_expenses = [expenses.split()[0] for expenses, i in monthly_expenses.items() if x < 200]
+print(except_smaller_expenses)
